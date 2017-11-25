@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6", //Version of Jscript 
+        "module": "commonjs",// libreria
+        "types": [
+            "node"
+        ]
+    },
+    "include": [
+        "**/*.ts" //target files
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
